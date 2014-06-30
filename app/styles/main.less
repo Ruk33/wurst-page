@@ -1,0 +1,64 @@
+@import "bower_components/bootstrap/less/bootstrap.less";
+
+@brand-success: rgb(143, 224, 57);
+@btn-primary-bg: #59CAFF;
+@bs-callout-padding: 20px;
+@bs-callout-border: 1px solid #eee;
+@bs-callout-border-info-color: #59CAFF;
+@font-size-base: 16px;
+@font-family-base: 'Open Sans';
+
+body {
+	padding-top: 75px;
+}
+
+.logo {
+	font-family: 'Kaushan Script';
+}
+
+.logo-large {
+	.logo;
+	font-size: 120px;
+}
+
+@media screen and (max-width: 568px) {
+	.logo-large {
+		font-size: 78px;
+	}
+}
+
+.footer {
+	margin-top: 50px;
+}
+
+// Thanks bootstrap :D
+.bs-callout {
+	padding: @bs-callout-padding;
+	margin: @bs-callout-padding 0;
+	border: @bs-callout-border;
+	border-left-width: 5px;
+	border-radius: 3px;
+}
+
+.bs-callout h3 {
+	margin-top: 5px;
+}
+
+.bs-callout-info {
+	border-left-color: @bs-callout-border-info-color;
+}
+
+.search-box {
+	background-color: rgb(60, 60, 60);
+	border: 0;
+	border-radius: 0;
+	color: rgb(170, 170, 170);
+}
+
+.search-box:focus {
+	box-shadow: none;
+}
+
+.nav.navbar-nav {
+	font-size: 14px;
+}

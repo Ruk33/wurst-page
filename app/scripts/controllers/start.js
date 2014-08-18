@@ -1,6 +1,11 @@
 'use strict';
 
-angular.module('wurstApp')
-       .controller('StartCtrl', ['$scope', 'DocumentationService', function($scope, DocumentationService) {
-            $scope.elements = [];
-       }]);
+angular.module('wurstApp').controller(
+    'StartCtrl', 
+    [
+        '$scope', 
+        function($scope) {
+            
+       }
+    ]
+);

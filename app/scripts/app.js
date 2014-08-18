@@ -31,6 +31,10 @@ angular
 						templateUrl: 'views/about.html',
 						controller: 'AboutCtrl'
 					})
+					.when('/lib', {
+						templateUrl: 'views/lib.html',
+						controller: 'LibCtrl'
+					})
 					.otherwise({
 						redirectTo: '/'
 					});
